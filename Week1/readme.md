@@ -1,80 +1,84 @@
-
 # 🍷 Week 1 — Wine Quality Prediction
 
-> **Nexariza AI | AI/ML Internship**  
-> **Week 1 — Foundation & Environment**  
-> **Status:** ✅ Complete
+**Nexariza AI | AI/ML Internship**  
+**Week:** 1 | **Status:**  Complete
 
 ---
 
 ## 📌 Project Overview
 
-### Problem Statement
-Predict wine quality based on chemical properties to enable:
-- ✅ Quality control before bottling
-- ✅ Premium pricing strategy
-- ✅ Cost reduction by early quality detection
+Predict wine quality (Good/Bad) using chemical properties.
 
-### Dataset
-| Attribute | Details |
-|-----------|---------|
-| **Source** | UCI Machine Learning Repository |
-| **Samples** | 1,599 red wines |
-| **Features** | 11 chemical properties |
-| **Target** | Quality Score (3-8) → Binary (Good ≥ 7, Bad < 7) |
+- **Data:** 1,599 red wines, 11 features
+- **Target:** Quality ≥ 7 = Good, < 7 = Bad
+- **Goal:** Classify wine quality before bottling
 
 ---
 
-## 📊 Model Performance
+## 📊 Results
 
-### Best Model: **Ensemble (Random Forest + XGBoost)**
+| Model | Accuracy |
+|-------|----------|
+| **Ensemble (Best)** | **94.2%** |
+| Random Forest | 93.8% |
+| XGBoost | 93.1% |
 
-| Metric | Score |
-|--------|-------|
-| **Accuracy** | **94.2%** |
-| Precision | 93.1% |
-| Recall | 92.5% |
-| F1-Score | 92.8% |
-| AUC-ROC | 98.1% |
-
-### All Models Comparison
-| Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
-|-------|----------|-----------|--------|----------|---------|
-| **Ensemble** | **94.2%** | 93.1% | 92.5% | 92.8% | 98.1% |
-| Random Forest | 93.8% | 92.5% | 91.8% | 92.1% | 97.6% |
-| XGBoost | 93.1% | 91.9% | 91.2% | 91.5% | 97.2% |
-
----
-
-## 🔑 Key Insights
-
-### Top 5 Features Affecting Wine Quality
-| Rank | Feature | Importance |
-|------|---------|------------|
-| 1 | **Alcohol** | 34.1% |
-| 2 | **Sulphates** | 10.5% |
-| 3 | **Volatile Acidity** | 9.2% |
-| 4 | Total Sulfur Dioxide | 7.8% |
-| 5 | Density | 7.1% |
-
-### Correlation with Quality
-| Feature | Correlation |
-|---------|-------------|
-| Alcohol | +0.48 (Strong Positive) |
-| Volatile Acidity | -0.39 (Strong Negative) |
-| Citric Acid | +0.23 (Moderate Positive) |
-| Density | -0.18 (Moderate Negative) |
+### Top Features
+1. **Alcohol** — 34.1% importance
+2. **Sulphates** — 10.5%
+3. **Volatile Acidity** — 9.2%
 
 ---
 
 ## 💼 Business Impact
 
-### Cost Savings Analysis
-| Metric | Value |
-|--------|-------|
-| **Waste Reduction** | 85% |
-| **Annual Savings** | $X,XXX |
-| **ROI** | 3-5x |
-| **Quality Detection Rate** | 92.5% |
+- Reduce waste by 85%
+- Enable premium pricing
+- Quality control before bottling
 
-### Confusion Matrix Breakdown (Ensemble Model)
+---
+
+## 🛠️ Tech Stack
+
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost, Streamlit
+
+---
+
+## 📁 Files
+├── week1_wine_quality_analysis.ipynb # Main notebook
+├── README.md # This file
+
+
+
+
+## 🚀 How to Run
+
+📝 Weekly Reflection
+What I Learned
+EDA and visualization techniques
+
+Hyperparameter tuning (GridSearchCV)
+
+Ensemble models (Voting Classifier)
+
+Feature importance analysis
+
+Challenges
+Handled imbalanced dataset (13.6% Good, 86.4% Bad)
+
+Optimized hyperparameters with GridSearchCV
+
+✅ Checklist
+☑ Environment setup
+☑ EDA complete
+☑ Models trained (3 models)
+☑ Hyperparameter tuning
+☑ Feature importance
+☑ Business insights
+☑ Documentation
+☑ LinkedIn post
+☑ GitHub upload
+📞 Contact
+Name: Fiza Aslam
+LinkedIn: https://www.linkedin.com/in/fiza-aslam-07a3863a4/
+GitHub: FizaAslam1
