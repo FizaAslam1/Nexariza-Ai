@@ -80,5 +80,5 @@ Optimized hyperparameters with GridSearchCV
 ☑ GitHub upload
 📞 Contact
 Name: Fiza Aslam
-LinkedIn: https://www.linkedin.com/in/fiza-aslam-07a3863a4/
+LinkedIn: https://www.linkedin.com/feed/update/urn:li:ugcPost:7493631533107486720/
 GitHub: FizaAslam1
