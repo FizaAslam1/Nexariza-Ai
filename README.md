@@ -132,10 +132,3 @@ streamlit run streamlit_app.py
 - Intern: **Fiza Aslam**
 - GitHub: **FizaAslam1**
 
----
-
-If you want, I can:
-- Bold or highlight additional sections
-- Add badges (build, coverage, license)
-- Convert the week-by-week table into separate project README files with more details
-
