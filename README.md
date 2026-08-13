@@ -46,10 +46,8 @@ Nexariza_AI_ML_Internship/
 
 - week1_wine_quality/
   - README.md
-  - week1_analysis.ipynb
-  - streamlit_app.py
-  - models/
-  - visualizations/
+  - week1_eda and classification.ipynb
+  
 
 - week2_churn_predictor/
   - README.md
